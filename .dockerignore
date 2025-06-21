@@ -1,0 +1,84 @@
+# flyctl launch added from apnaKhata/.gitignore
+apnaKhata/**/HELP.md
+apnaKhata/**/target
+apnaKhata/**/.mvn/wrapper/maven-wrapper.jar
+!apnaKhata/**/**/src/main/**/target
+!apnaKhata/**/**/src/test/**/target
+
+### STS ###
+apnaKhata/**/.apt_generated
+apnaKhata/**/.classpath
+apnaKhata/**/.factorypath
+apnaKhata/**/.project
+apnaKhata/**/.settings
+apnaKhata/**/.springBeans
+apnaKhata/**/.sts4-cache
+
+### IntelliJ IDEA ###
+apnaKhata/**/.idea
+apnaKhata/**/*.iws
+apnaKhata/**/*.iml
+apnaKhata/**/*.ipr
+
+### NetBeans ###
+apnaKhata/nbproject/private
+apnaKhata/nbbuild
+apnaKhata/dist
+apnaKhata/nbdist
+apnaKhata/.nb-gradle
+apnaKhata/**/build
+!apnaKhata/**/**/src/main/**/build
+!apnaKhata/**/**/src/test/**/build
+
+### VS Code ###
+apnaKhata/**/.vscode
+
+apnaKhata/**/.qodo
+
+# flyctl launch added from apnaKhata/.idea/.gitignore
+# Default ignored files
+apnaKhata/.idea/shelf
+apnaKhata/.idea/workspace.xml
+# Editor-based HTTP Client requests
+apnaKhata/.idea/httpRequests
+# Datasource local storage ignored files
+apnaKhata/.idea/dataSources
+apnaKhata/.idea/dataSources.local.xml
+
+# flyctl launch added from apnakhaatafront/.gitignore
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+apnakhaatafront/node_modules
+apnakhaatafront/.pnp
+apnakhaatafront/**/.pnp.js
+
+# testing
+apnakhaatafront/coverage
+
+# production
+apnakhaatafront/build
+
+# misc
+apnakhaatafront/**/.DS_Store
+apnakhaatafront/**/.env.local
+apnakhaatafront/**/.env.development.local
+apnakhaatafront/**/.env.test.local
+apnakhaatafront/**/.env.production.local
+
+apnakhaatafront/**/npm-debug.log*
+apnakhaatafront/**/yarn-debug.log*
+apnakhaatafront/**/yarn-error.log*
+
+apnakhaatafront/**/.qodo
+
+# flyctl launch added from apnakhaatafront/.idea/.gitignore
+# Default ignored files
+apnakhaatafront/.idea/shelf
+apnakhaatafront/.idea/workspace.xml
+# Editor-based HTTP Client requests
+apnakhaatafront/.idea/httpRequests
+# Datasource local storage ignored files
+apnakhaatafront/.idea/dataSources
+apnakhaatafront/.idea/dataSources.local.xml
+fly.toml

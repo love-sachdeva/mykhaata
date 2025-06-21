@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  frontend:
+    build:
+      context: ./apnakhaatafront
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: ./apnaKhata
+      dockerfile: Dockerfile
+    ports:
+      - "8085:8085"
+    volumes:
+      - h2data:/data          # Optional: use if H2 is file-based
+    restart: unless-stopped
+    depends_on:
+      - frontend              # Optional: backend starts after frontend
+
+volumes:
+  h2data:
